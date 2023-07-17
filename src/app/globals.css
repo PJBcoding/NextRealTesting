@@ -1,0 +1,41 @@
+.floating-btn {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    /* display:none if initailly want to be hidden , but here the same is done using componentDidMount() in FloatingBtn.js */
+    background: #b9a2c779;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: .3%;
+    color: #a15ac7;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .35);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 71;
+
+    /* <button> */
+
+    outline: blue;
+    border: none;
+
+
+}
+
+
+.floating-btn:hover {
+
+    /* background: #850fd3; */
+    background: #890bd7;
+    color: #fff;
+}
+
+.floating-btn:active {
+
+    background: #980958;
+
+}
